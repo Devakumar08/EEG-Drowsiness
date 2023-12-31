@@ -2,10 +2,14 @@
 
 This repository contains an improved implementation of the "InterpretableCNN" model proposed in the paper "EEG-Based Cross-Subject Driver Drowsiness Recognition With an Interpretable Convolutional Neural Network" by J. Cui, Z. Lan, O. Sourina, and W. Müller-Wittig. The improvements focus on enhancing the accuracy of the original model.
 
+**Contribution:**
+The project's standout achievement involves elevating the existing model's accuracy from 78.02% to 80.4%. This improvement was meticulously achieved through fine-tuning hyperparameters such as learning rate, batch size, and epochs.
+
+## Model Accuracy Improvement
+
+Beyond accuracy metrics, the model generates a topological heatmap overlaid on the input EEG signal, revealing spatial activity patterns, and provides relative power values for Delta, Theta, Alpha, and Beta frequency bands. These insights offer a comprehensive understanding of the EEG signal's spectral characteristics, underscoring the project's significance in advancing both deep learning and neuroscience.
+
 If you find this code useful for your work, please consider citing the original paper:
-
-J. Cui, Z. Lan, O. Sourina and W. Müller-Wittig, "EEG-Based Cross-Subject Driver Drowsiness Recognition With an Interpretable Convolutional Neural Network," in IEEE Transactions on Neural Networks and Learning Systems, doi: 10.1109/TNNLS.2022.3147208.
-
 
 [Paper Link](https://ieeexplore.ieee.org/document/9714736)
 
